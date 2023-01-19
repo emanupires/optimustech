@@ -36,3 +36,10 @@ body {
   font-weight: 600;
   line-height: 44px;
 }
+
+@media only screen and (max-width: 600px) {
+  .titulo__geral {
+    font-size: 30px;
+    line-height: 34px;
+  }
+}

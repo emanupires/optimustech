@@ -38,3 +38,23 @@
   color: var(--preto-texto);
   font-size: 14px;
 }
+
+@media only screen and (max-width: 600px) {
+  .colaboradores__container {
+    margin: 16px;
+  }
+
+  .colaboradores {
+    padding: 32px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .colaboradores__container {
+    margin: 16px;
+  }
+
+  .colaboradores {
+    padding: 32px;
+  }
+}

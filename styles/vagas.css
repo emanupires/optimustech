@@ -12,8 +12,8 @@
 }
 
 .vagas__imagem {
-  margin: 24px 0;
-  width: 1216px;
+  margin: 24px;
+  width: 60vw;
   max-height: 400px;
 }
 
@@ -69,4 +69,32 @@
   font-weight: 500;
   line-height: 28px;
   margin-bottom: 32px;
+}
+
+@media only screen and (max-width: 600px) {
+  .vagas__container {
+    margin: 32px 0;
+  }
+
+  .vagas__descricao {
+    margin-bottom: 24px;
+  }
+
+  .vagas__imagem {
+    width: 80%;
+  }
+
+  .vagas__informacoes {
+    margin-top: 8px;
+  }
+
+  .vagas__titulo {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .vagas__imagem {
+    width: 90%;
+  }
 }
