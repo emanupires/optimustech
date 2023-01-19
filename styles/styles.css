@@ -14,7 +14,7 @@
 
 body {
   background-color: var(--branco-principal);
-  font-family: sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .botao__padrao {

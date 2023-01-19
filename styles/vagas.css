@@ -21,14 +21,52 @@
   text-align: left;
   margin-left: 8%;
   margin-right: 12%;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.vagas__subtitulo {
+  background-color: rgba(142, 36, 36, 0.05);
+  border-radius: 16px;
+  color: var(--vermelho-principal);
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 12px;
+  margin-bottom: 16px;
+}
+
+.vagas__descricao {
+  margin-bottom: 64px;
+  margin-top: 24px;
 }
 
 .vagas__card {
-  padding: 24px 28px;
   border: 1px solid var(--borda-cards);
   border-radius: 16px;
+  margin-bottom: 24px;
+  padding: 24px 28px;
 }
 
 .vagas__informacoes--card {
   display: flex;
+  color: var(--preto-texto);
+}
+
+.vagas__horario {
+  margin-right: 24px;
+}
+
+.vagas__titulo {
+  font-size: 20px;
+  font-weight: 500px;
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+
+.vagas__titulo--card {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 32px;
 }
