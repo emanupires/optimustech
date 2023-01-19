@@ -1,0 +1,33 @@
+@import url("./header.css");
+@import url("./chamada.css");
+@import url("./vagas.css");
+
+:root {
+  --branco-principal: #ffffff;
+  --vermelho-principal: #8e2424;
+  --preto--logo: #34404e;
+  --preto-texto: #667085;
+  --preto-titulo: #101828;
+  --borda-cards: #eaecf0;
+  --footer-cor-de-fundo: #f9fafb;
+}
+
+body {
+  background-color: var(--branco-principal);
+  font-family: sans-serif;
+}
+
+.botao__padrao {
+  background-color: var(--vermelho-principal);
+  border-radius: 8px;
+}
+
+.botao__padrao a {
+  color: var(--branco-principal);
+}
+
+.titulo__geral {
+  color: var(--preto-titulo);
+  font-size: 48px;
+  font-weight: 600;
+}

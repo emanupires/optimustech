@@ -1,0 +1,54 @@
+.chamada__container {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  text-align: center;
+  width: 100%;
+}
+
+.chamada {
+  max-width: 1170px;
+  width: 100%;
+}
+
+.chamada__subtitulo {
+  color: var(--vermelho-principal);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.chamada__descricao {
+  color: var(--preto-texto);
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.numeros {
+  display: flex;
+  margin-top: 80px;
+  justify-content: center;
+}
+
+.numeros__cards {
+  text-align: left;
+  width: 100%;
+}
+
+.numeros__cards--titulo {
+  color: var(--vermelho-principal);
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.numeros__cards--subtitulo {
+  color: var(--preto-titulo);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.numeros__cards--descricao {
+  color: var(--preto-texto);
+  font-size: 16px;
+  line-height: 24px;
+  width: 90%;
+}
