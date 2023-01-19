@@ -1,6 +1,8 @@
 @import url("./header.css");
 @import url("./chamada.css");
 @import url("./vagas.css");
+@import url("./colaboradores.css");
+@import url("./footer.css");
 
 :root {
   --branco-principal: #ffffff;
@@ -9,6 +11,8 @@
   --preto-texto: #667085;
   --preto-titulo: #101828;
   --borda-cards: #eaecf0;
+  --cinza: #d0d5dd;
+  --cinza-copyright: #98a2b3;
   --footer-cor-de-fundo: #f9fafb;
 }
 
@@ -28,6 +32,7 @@ body {
 
 .titulo__geral {
   color: var(--preto-titulo);
-  font-size: 48px;
+  font-size: 36px;
   font-weight: 600;
+  line-height: 44px;
 }

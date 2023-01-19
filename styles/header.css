@@ -28,7 +28,8 @@
 }
 
 .cabecalho__logo img {
-  width: 20px;
+  margin-bottom: -7px;
+  width: 27px;
 }
 
 .lista {

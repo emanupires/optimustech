@@ -1,0 +1,40 @@
+.colaboradores__container {
+  display: flex;
+  justify-content: center;
+  margin: 32px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.colaboradores {
+  background-color: rgba(196, 25, 25, 0.03);
+  border-radius: 16px;
+  max-width: 1170px;
+  padding: 64px;
+  width: 100%;
+}
+
+.colaboradores__subtitulo {
+  color: var(--vermelho-principal);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+.colaboradores img {
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.colaborador__nome {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 4px;
+}
+
+.colaborador__cargo {
+  color: var(--preto-texto);
+  font-size: 14px;
+}
