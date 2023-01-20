@@ -1,7 +1,6 @@
 .cabecalho__principal {
   display: flex;
   justify-content: center;
-  width: 100%;
   padding: 28px 0;
 }
 

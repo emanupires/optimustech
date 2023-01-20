@@ -5,7 +5,6 @@
   margin-top: 64px;
   padding: 96px;
   text-align: center;
-  width: 100%;
 }
 
 .footer {
@@ -47,7 +46,20 @@
 }
 
 @media only screen and (max-width: 600px) {
-}
+  .footer__container {
+    margin-top: 32px;
+    padding: 40px;
+  }
 
-@media only screen and (min-width: 600px) {
+  .footer__subtitulo {
+    font-size: 16px;
+  }
+
+  .footer__container form {
+    display: flex;
+  }
+
+  .email__footer {
+    width: 80%;
+  }
 }
